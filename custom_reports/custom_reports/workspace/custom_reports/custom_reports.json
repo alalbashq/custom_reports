@@ -1,0 +1,76 @@
+{
+ "cards_label": "Details",
+ "category": "Modules",
+ "charts": [],
+ "creation": "2023-07-27 16:51:11.009907",
+ "developer_mode_only": 0,
+ "disable_user_customization": 0,
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "extends": "Beneficiaries 11",
+ "extends_another_page": 1,
+ "hide_custom": 0,
+ "icon": "fal fa-users",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "label": "Custom Reports",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Stock Balance Without Prices",
+   "link_to": "Stock Balance Without Prices",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Stock Ledger Without Prices",
+   "link_to": "Stock Ledger Without Prices",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Sales Register & Delivery",
+   "link_to": "Sales Register & Delivery",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2023-07-28 19:21:10.813919",
+ "modified_by": "Administrator",
+ "module": "Custom Reports",
+ "name": "Custom Reports",
+ "onboarding": "Accounts",
+ "owner": "Administrator",
+ "pin_to_bottom": 0,
+ "pin_to_top": 0,
+ "shortcuts": [
+  {
+   "doc_view": "",
+   "label": "Stock Balance Without Prices",
+   "link_to": "Stock Balance Without Prices",
+   "type": "Report"
+  },
+  {
+   "doc_view": "",
+   "label": "Stock Ledger Without Prices",
+   "link_to": "Stock Ledger Without Prices",
+   "type": "Report"
+  },
+  {
+   "doc_view": "",
+   "label": "Sales Register & Delivery",
+   "link_to": "Sales Register & Delivery",
+   "type": "Report"
+  }
+ ],
+ "shortcuts_label": ""
+}
