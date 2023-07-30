@@ -59,7 +59,7 @@ def _execute(filters, additional_table_columns=None, additional_query_columns=No
 
 		tot =  qty_inv - qty_del
 		invoice_is_delivered = 0
-		if tot == 0 :
+		if qty_inv and  qty_del and tot == 0 :
 			invoice_is_delivered = 100
 		elif qty_del > 0 and  qty_inv > 0:
 			invoice_is_delivered = 100 * (qty_del / qty_inv)
@@ -75,7 +75,7 @@ def _execute(filters, additional_table_columns=None, additional_query_columns=No
 
 		tot_ord =  qty_ord - qty_del_ord
 		invoice_is_delivered_ord = 0
-		if tot_ord == 0 :
+		if qty_ord and qty_del_ord and tot_ord == 0  :
 			invoice_is_delivered_ord = 100
 		elif qty_del_ord > 0 and  qty_ord > 0:
 			invoice_is_delivered_ord = 100 * (qty_del_ord / qty_ord)
